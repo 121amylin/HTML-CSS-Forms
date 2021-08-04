@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01_Google Charts</title>
+</head>
+
+<body>
+  <div id="piechart"></div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    // Load google charts，載入google工具
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    // Draw the chart and set the chart values，資料設置
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work', 8],
+        ['Friends', 2],
+        ['Eat', 2],
+        ['TV', 2],
+        ['Gym', 2],
+        ['Sleep', 8]
+      ]);
+
+      // Optional; add a title and set the width and height of the chart，參數設置:title、width、height
+      var options = { 'title': 'My Average Day', 'width': 550, 'height': 400 };
+
+      // Display the chart inside the <div> element with id="piechart"，將產生的圖表掛載到DOM上
+      // visualization 可視畫
+      // PieChart 圓餅圖
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+    }
+  </script>
+</body>
+
+</html>
+
+<!-- google 圖表工具 https://developers.google.com/chart/interactive/docs/gallery?hl=zh_cn -->

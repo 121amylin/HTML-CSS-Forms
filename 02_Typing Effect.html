@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02_Typing Effect</title>
+</head>
+
+<body>
+  <p id="typing"></p>
+  <button id="startBtn">start</button>
+  <script>
+    const textElement = document.querySelector('#typing')
+    const startBtn = document.querySelector('#startBtn')
+    const showText = "Happy Father's Day!!"
+    const length = showText.length
+    const speed = 50
+    let i = 0
+
+    function typingEffect() {
+      if (i >= length) return
+      setTimeout(() => {
+        textElement.textContent += showText[i]
+        i++
+        typingEffect()
+      }, speed)
+    }
+
+    function reset() {
+      textElement.textContent = ''
+      i = 0
+      typingEffect()
+    }
+    startBtn.addEventListener('click', reset)
+  </script>
+</body>
+
+</html>
+<!-- Typing 打字 -->
+
+
+<!-- 【let 解法】 -->
+<!-- for(let i = 1; i <= 5; i++) {
+  setTimeout(function() {
+    console.log(i)
+  }, 1000*i)
+}  -->
+
+
+<!-- for(let i = 1; i <= 5; i++) {
+  setTimeout(()=> {
+    console.log(i)
+  }, 1000*i)
+}  -->
+
+
+
+
+
+<!-- 【立即函示解法】 -->
+<!-- for(i = 1; i <= 5; i++) {
+  (function(x){setTimeout(function() {
+    console.log(x)
+  }, 1000*i)})(i)
+} -->
+
+
+<!-- for(i = 1; i <= 5; i++) {
+  ((x)=>{setTimeout(function() {
+    console.log(x)
+  }, 1000*i)})(i)
+} -->
+
+
+<!-- for(i = 1; i <= 5; i++) {
+  ((x)=>{setTimeout(()=> {
+    console.log(x)
+  }, 1000*i)})(i)
+} -->

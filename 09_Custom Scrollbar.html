@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>09_Custom Scrollbar</title>
+  <style>
+    .box {
+      margin: auto;
+      width: 600px;
+      height: 300px;
+      overflow-y: scroll;
+    }
+
+    /* scrollbar */
+    ::-webkit-scrollbar {
+      width: 24px;
+      background-color: rgb(246, 97, 97);
+    }
+
+    /*滾動條軌道*/
+    ::-webkit-scrollbar-track {
+      background: #d1fb8d;
+    }
+
+    /*滾動條滑塊*/
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 16px;
+      transition: all 0.4s;
+      height: 20px;
+      /*沒有過度效果*/
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    ::-webkit-scrollbar-button {
+      background-color: #555;
+      color: #000;
+    }
+
+    /* ::-webkit-scrollbar ——整個滾動條。 */
+    /* ::-webkit-scrollbar-button ——滾動條上的按鈕（向下箭頭）。 */
+    /* ::-webkit-scrollbar-thumb ——滾動條上的滾動。 */
+    /* ::-webkit-scrollbar-track ——滾動條軌道。 */
+    /* ::-webkit-scrollbar-track-piece ——滾動條沒有的軌道部分。 */
+    /* ::-webkit-scrollbar-corner — 當同時有垂直滾動條和水平滾動條時交彙的部分。 */
+    /* ::-webkit-resizer — 部分元素的角落部分的部分樣式（例如：textarea的可按鈕按鈕）。 */
+
+    /* ::-webkit-scrollbar-track設置背景色權重比::-webkit-scrollbar-track設置背景色權重高 */
+    /* ::-webkit-scrollbar-thumb:hover，設置transition沒有過度效果 */
+
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum
+    neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit
+    amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae
+    recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a
+    harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius
+    tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem
+    aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum
+    dolorum, et labore?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum
+    neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit
+    amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae
+    recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a
+    harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius
+    tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem
+    aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum
+    dolorum, et labore?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum
+    neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit
+    amet consectetur adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae
+    recusandae sunt a harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a
+    harum! Voluptatem eius tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Odit quod, facilis rem aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius
+    tempore laborum dolorum, et labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod, facilis rem
+    aperiam quisquam sit ducimus dolorum neque molestiae recusandae sunt a harum! Voluptatem eius tempore laborum
+    dolorum, et labore?
+  </div>
+
+</body>
+
+</html>

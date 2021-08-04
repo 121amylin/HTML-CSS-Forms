@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>04_Change Bullet Color of Lists</title>
+  <style>
+    ul {
+      list-style: none;
+      /* Remove default bullets */
+      padding-left: 0;
+    }
+    ul li{
+      padding: 10px;
+    }
+    ul li::before {
+      font-family: "FontAwesome";
+      content: "\f2cd"; /*FontAwesome icon*/
+      content: "\2022"; /*添加內容：\2022 是項目符號的 CSS 代碼/unicode*/
+      content: "\204C"; /* ⁌ */
+      content: "\2023";/* ‣ */
+      width: 1em;
+      font-weight: 900;
+      font-size: 30px;
+      color: rgb(172, 172, 172);
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 0;
+      padding-right: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Adele</li>
+    <li>Agnes</li>
+    <li>Billy</li>
+    <li>Bob</li>
+  </ul>
+</body>
+
+</html>
+
+<!-- https://fontawesome.com/v4.7/icons/ -->
