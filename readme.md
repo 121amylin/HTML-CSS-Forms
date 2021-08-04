@@ -97,78 +97,85 @@ input Range type settings
 ****
 ****
 ****
+###  ★ ★ ★ [HTML Forms](https://www.w3schools.com/html/html_forms.asp) ★ ★ ★
+****
+### 11_[Forms 形式](https://www.w3schools.com/howto/howto_css_login_form.asp)
 
-### 11_[Forms](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp)
+- [input type="image"](https://cloud.tencent.com/developer/section/1189709)，用於創建圖形提交按鈕，即會提交圖像而不是文本形式的按鈕
 ****
-### Forms 形式
+##### [Login Form 登錄表格](https://www.w3schools.com/howto/howto_css_login_form.asp)
+- 純HTML、CSS排版參考
 ****
-### Login Form 登錄表格
+##### [Signup Form 報名表](https://www.w3schools.com/howto/howto_css_signup_form.asp)
+- 純HTML、CSS排版參考
 ****
-### Signup Form 報名表
+##### [Checkout Form 結帳表格](https://www.w3schools.com/howto/howto_css_checkout_form.asp)
+- 純HTML、CSS排版參考
 ****
-### Checkout Form 結帳表格
+##### [Contact Form 聯繫表](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- 純HTML、CSS排版參考
 ****
-### Contact Form 聯繫表
+##### [Social Login Form 社交登錄表單](https://www.w3schools.com/howto/howto_css_social_login.asp)
+- 純HTML、CSS排版參考
 ****
-### Social Login Form 社交登錄表單
+##### [Register Form 登記表](https://www.w3schools.com/howto/howto_css_register_form.asp)
+- 純HTML、CSS排版參考
 ****
-### Register Form 登記表
+##### Form with Icons 帶有圖標的表單
 ****
-### Form with Icons 帶有圖標的表單
+##### Newsletter 通訊
 ****
-### Newsletter 通訊
+##### Stacked Form 堆疊形式
 ****
-### Stacked Form 堆疊形式
+##### Responsive Form 響應式表單
 ****
-### Responsive Form 響應式表單
+##### Popup Form 彈出窗體
 ****
-### Popup Form 彈出窗體
+##### Inline Form 內聯表格
 ****
-### Inline Form 內聯表格
+##### Clear Input Field 清除輸入字段
 ****
-### Clear Input Field 清除輸入字段
+##### Hide Number Arrows 隱藏數字箭頭
 ****
-### Hide Number Arrows 隱藏數字箭頭
+##### Copy Text to Clipboard 將文本複製到剪貼板
 ****
-### Copy Text to Clipboard 將文本複製到剪貼板
+##### Animated Search 動畫搜索
 ****
-### Animated Search 動畫搜索
+##### Search Button 搜索按鈕
 ****
-### Search Button 搜索按鈕
+##### Fullscreen Search 全屏搜索
 ****
-### Fullscreen Search 全屏搜索
+##### Input Field in Navbar 導航欄中的輸入字段
 ****
-### Input Field in Navbar 導航欄中的輸入字段
+##### Login Form in Navbar 導航欄中的登錄表單
 ****
-### Login Form in Navbar 導航欄中的登錄表單
+##### Custom Checkbox/Radio 自定義復選框/收音機
 ****
-### Custom Checkbox/Radio 自定義復選框/收音機
+##### Custom Select 自定義選擇
 ****
-### Custom Select 自定義選擇
+##### Toggle Switch 撥動開關
 ****
-### Toggle Switch 撥動開關
+##### Check Checkbox 複選框
 ****
-### Check Checkbox 複選框
+##### Detect Caps Lock 檢測大寫鎖定
 ****
-### Detect Caps Lock 檢測大寫鎖定
+##### Trigger Button on Enter 輸入時觸發按鈕
 ****
-### Trigger Button on Enter 輸入時觸發按鈕
+##### Password Validation 密碼驗證
 ****
-### Password Validation 密碼驗證
+##### Toggle Password Visibility 切換密碼可見性
 ****
-### Toggle Password Visibility 切換密碼可見性
+##### Multiple Step Form 多步驟形式
 ****
-### Multiple Step Form 多步驟形式
+##### Autocomplete 自動完成
 ****
-### Autocomplete 自動完成
+##### Turn off autocomplete 關閉自動完成
 ****
-### Turn off autocomplete 關閉自動完成
+##### Turn off spellcheck 關閉拼寫檢查
 ****
-### Turn off spellcheck 關閉拼寫檢查
+##### File Upload Button 文件上傳按鈕
 ****
-### File Upload Button 文件上傳按鈕
-****
-### Empty Input Validation 空輸入驗證 
+##### Empty Input Validation 空輸入驗證 
 
 
 
